@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(93, 7, 174);
+   
+    overflow-x: hidden;
+    
+}
+.frnt-page{
+    
+    border-radius:0px 0px 50% 1px;
+    display: flex;
+    height: 100%;
+     
+}
+.frntpage-img{
+   
+    width: 90vw;
+    height: 45vw;
+   /* width: 5000px;
+    height: 100%;*/
+ 
+    border-radius:0px 0px 50% 1px;
+    box-shadow: 5px 5px 1px 1px black;
+}
+.frntpage-img:hover{
+
+    box-shadow: 5px 5px 1px 1px whitesmoke;
+}
+
+.explr-btn{
+    position: relative;
+    top:600px;
+    right: 3rem;
+    z-index: 10;
+    background-color: rgb(20, 20, 21);
+    color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 1px 1px 2px blue;
+}
+.explr-btn:active{
+    box-shadow: 0 0 0 0;
+}
+.explr-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.explr-btn:hover{
+    background-color: rgb(6, 6, 152);
+    box-shadow: 5px 5px 5px 5px black;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+#outer-sec{
+    background-color:black;
+    border-radius: 20px;
+    margin: 2rem;
+    
+    padding: 1px;
+    text-align: center;
+}
+#inner-sec{
+    display: flex;
+}
+.box{
+    background-color: rgb(248, 81, 190);
+    margin: 1rem;
+    margin-top: 5px;
+    padding: 30px;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px rgb(54, 52, 53);
+}
+.box:hover{
+    background-color: rgb(233, 161, 230);
+    box-shadow: 2px 2px 2px 2px rgb(200, 5, 145);
+}
+ul{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.rwo{
+    display: flex;
+    justify-content: center;
+
+}
+.h2{
+    text-align: left;
+}
+h1{
+    margin: 1rem;
+    margin-top: 3rem;
+}
+.btn{
+    margin: 1rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+.btn,button{
+    background-color: rgb(186, 215, 238);
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: black;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(1, 12, 18);
+}
+.btn:hover,button:hover{
+    background-color: rgb(117, 117, 221);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+     .frntpage-img{
+    width: 90vw;
+    height: 105vw;
+   /* width: 5000px;
+    height: 100%;*/
+    
+}.explr-btn{
+    position: relative;
+   top:950px;
+    right: 3rem;
+}
+
+    .cvr-img{
+        width: 80%;
+        background-size: contain;
+    }
+        .rwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .box{
+        width: 50%;
+    }
+     #outer-sec{
+        margin: 15px;
+    }
+    
+
+}
+@media only screen and (max-width:820px){
+
+    .frntpage-img{
+    height:90vw;
+   /* width: 5000px;
+    height: 100%;*/
+    
+}
+.explr-btn{
+    position: relative;
+   top:550px;
+    right: 3rem;
+}
+
+
+
+}
+@media only screen and (max-width: 720px){
+    #inner-sec{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    .rwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    #outer-sec{
+    margin-right: 2rem;
+    }
+    .cvr-img{
+        width: 80%;
+        background-size: contain;
+    }
+    .frntpage-img{
+    width: 90vw;
+    height: 110vw;
+   /* width: 5000px;
+    height: 100%;*/
+    
+}
+
+
+
+    
+    
+}
+@media only screen and (max-width:450px){
+     .frntpage-img{
+    width: 80vw;
+    height: 180vw;
+   /* width: 5000px;
+    height: 100%;*/
+    
+}
+.explr-btn{
+    position: relative;
+   top:650px;
+    right: 3rem;
+}
+
+}
+@media only screen and (max-width:350px){
+    .box{
+        width: 100%;
+        text-align: center;
+
+    }
+     .frntpage-img{
+  
+    height: 100vw;
+   /* width: 5000px;
+    height: 100%;*/
+    
+}
+.explr-btn{
+    position: relative;
+   top:230px;
+    right: 3rem;
+}
+    .rwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+     .cvr-img{
+        width: 100%;
+        background-size: cover;
+        border-radius: 0px;
+    }
+    #outer-sec{
+        margin: 0;
+        border-radius: 0px;
+
+    }
+
+}
